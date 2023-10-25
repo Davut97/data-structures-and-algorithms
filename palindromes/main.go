@@ -13,7 +13,7 @@ func main() {
 }
 
 func isPalindrome(s string) bool {
-	cleanedInput := strings.ReplaceAll(strings.ToLower(s), " ", "")
+	cleanedInput := strings.ToLower(s)
 
 	length := len(cleanedInput)
 
