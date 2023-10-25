@@ -3,10 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(reverseInteger(123))
+	fmt.Println(reverseInteger(-123))
 }
 
 func reverseInteger(original int) int {
+
 	num := original
 	reversed := 0
 
